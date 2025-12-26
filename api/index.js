@@ -1,8 +1,8 @@
-import { init } from '@waline/vercel';
+const Waline = require('@waline/vercel');
 
-export default init({
+module.exports = Waline({
   env: process.env,
-//
+
   cors: {
     origin: [
       'http://localhost:1313',
