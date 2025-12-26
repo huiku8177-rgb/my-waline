@@ -7,6 +7,6 @@
     "start": "waline"
   },
   "dependencies": {
-    "@waline/vercel": "latest"
+   "@waline/vercel": "^3.0.0"
   }
 }
